@@ -1,6 +1,8 @@
 import React from 'react'
-import ControlledComponent from './components/2-10.Form/ControlledComponent';
-import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
+import Reducer from './components/3-3.Hooks/Reducer';
+//import State from './components/3-3.Hooks/State';
+//import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
+//import ControlledComponent from './components/2-10.Form/ControlledComponent';
 //import List from './components/2-9.List/List';
 //import Extraction from './components/Extraction/Extraction'
 //import Composition from './components/2-4.Props/Composition'
@@ -22,8 +24,10 @@ function App() {
       {/* <Event/> */}
       {/* <Condition/> */}
       {/* <List/> */}
-      <ControlledComponent/>
-      <UnControlledComponent/>
+      {/* <ControlledComponent/>
+      <UnControlledComponent/> */}
+      {/* <State/> */}
+      <Reducer/>
     </div>
   );
 }

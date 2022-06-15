@@ -127,3 +127,13 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - 다중입력 : event.target.name
 - UnControlled Component : form element 자체의 내부 상태 활용
 - defaultValue, ref : 기본값 / value 확인
+
+* Hooks
+- Hooks 등장 : Class의 단점 보완 / 재사용성 강화
+- Hook 사용 규칙 : 최상위 / 함수형 컴포넌트 / custom Hook
+- Class의 state : 훅을 먼저 배웠기에 고민 할 필요 x
+- useEffect : 데이터 fetch / 구독 / DOM 수정
+- clean up : 구독과 구독해지를 한 공간에서
+- dependency array : 필요한 변경시에만 effect 실행
+- Custom Hook : 컴포넌트들에 반복되는 Hooks 묶기
+- 다양한 Hooks : 필요한 타이밍에 참고해서 사용
