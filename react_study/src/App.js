@@ -1,5 +1,6 @@
 import React from 'react'
-import Reducer from './components/3-3.Hooks/Reducer';
+//import Reducer from './components/3-3.Hooks/Reducer';
+import Practice from './components/practice/practice';
 //import State from './components/3-3.Hooks/State';
 //import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
 //import ControlledComponent from './components/2-10.Form/ControlledComponent';
@@ -27,7 +28,8 @@ function App() {
       {/* <ControlledComponent/>
       <UnControlledComponent/> */}
       {/* <State/> */}
-      <Reducer/>
+      {/* <Reducer/> */}
+      <Practice/>
     </div>
   );
 }
