@@ -148,4 +148,7 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - HOC : 함수를 받아서 함수를 리턴
 
 * Memoization
-- 
+- React.memo : HOC / Props 비교하여 메모
+- Profiler : 리액트 성능 분석 도구
+- callback : useCallback
+- value : useMemo

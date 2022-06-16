@@ -1,7 +1,7 @@
 import React from 'react'
 //import Button from './components/3-7.HOC/Button';
 //import Input from './components/3-7.HOC/Input';
-import Memo from './components/3-8.Memoization/Memo';
+//import Memo from './components/3-8.Memoization/Memo';
 //import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 //import Dialog from './components/3-6.Composition2/Dialog';
 //import WelcomDialog from './components/3-5.Composition/WelcomDialog';
@@ -43,7 +43,7 @@ function App() {
       <br/>
       <br/>
       <Button/> */}
-      <Memo/>
+      {/* <Memo/> */}
     </div>
   );
 }
