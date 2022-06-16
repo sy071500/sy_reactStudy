@@ -1,6 +1,9 @@
 import React from 'react'
+import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+//import Dialog from './components/3-6.Composition2/Dialog';
+//import WelcomDialog from './components/3-5.Composition/WelcomDialog';
 //import Reducer from './components/3-3.Hooks/Reducer';
-import Practice from './components/practice/practice';
+//import Practice from './components/practice/practice';
 //import State from './components/3-3.Hooks/State';
 //import UnControlledComponent from './components/2-10.Form/UnControlledComponent';
 //import ControlledComponent from './components/2-10.Form/ControlledComponent';
@@ -29,7 +32,10 @@ function App() {
       <UnControlledComponent/> */}
       {/* <State/> */}
       {/* <Reducer/> */}
-      <Practice/>
+      {/* <Practice/> */}
+      {/* <WelcomDialog/> */}
+      {/* <Dialog/> */}
+      <ThankyouDialog/>
     </div>
   );
 }

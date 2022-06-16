@@ -1,0 +1,4 @@
+rsc:  입력하면 화살표 함수형 컴포넌트
+rcc:  입력하면 클래스형 컴포넌트
+rfc: react functional component
+useStateSnippet : useState
