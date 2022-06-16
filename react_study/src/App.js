@@ -1,5 +1,8 @@
 import React from 'react'
-import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+//import Button from './components/3-7.HOC/Button';
+//import Input from './components/3-7.HOC/Input';
+import Memo from './components/3-8.Memoization/Memo';
+//import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 //import Dialog from './components/3-6.Composition2/Dialog';
 //import WelcomDialog from './components/3-5.Composition/WelcomDialog';
 //import Reducer from './components/3-3.Hooks/Reducer';
@@ -35,7 +38,12 @@ function App() {
       {/* <Practice/> */}
       {/* <WelcomDialog/> */}
       {/* <Dialog/> */}
-      <ThankyouDialog/>
+      {/* <ThankyouDialog/> */}
+      {/* <Input/>
+      <br/>
+      <br/>
+      <Button/> */}
+      <Memo/>
     </div>
   );
 }
