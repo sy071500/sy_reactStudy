@@ -152,3 +152,9 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Profiler : 리액트 성능 분석 도구
 - callback : useCallback
 - value : useMemo
+
+* Context
+- 컴포넌트 트리 제약 : Props drilling의 한계 해소
+- 재사용성 : Context를 사용하면 재사용하기 어려움
+- API : createContext / Provider / Consumer
+- useContext : Consumer 대체
