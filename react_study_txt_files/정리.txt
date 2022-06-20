@@ -180,3 +180,7 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Virtual DOM : 실제 DOM과 동기화 할 가상 표현
 - 재조정 : 실제 DOM과 Virtual DOM의 동기화
 - React Fiber : 스택 reconciler 대체한 재조정 엔진
+
+* React Dev Tool
+- 개발자 도구 확장 : React에서 확인하고 싶은 것들
+- 성능 측정 : Profiler

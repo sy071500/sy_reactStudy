@@ -1,6 +1,6 @@
 import React from 'react'
-import Component from './components/3-14.PropTypes/Component';
-import StyledComponent from './components/StyledComponent/StyledComponent';
+//import Component from './components/3-14.PropTypes/Component';
+//import StyledComponent from './components/StyledComponent/StyledComponent';
 //import Example from './components/3-11.Potal/Example';
 //import Button from './components/3-7.HOC/Button';
 //import Input from './components/3-7.HOC/Input';
@@ -47,10 +47,10 @@ function App() {
       <br/>
       <br/>
       <Button/> */}
-      {/* <Memo/> */}
+       {/* <Memo/> */}
       {/* <Example/> */}
       {/* <Example/> */}
-      <Component/>
+      {/* <Component/> */}
       {/****************************** 챕터2 ***************************/}
       {/* <StyledComponent/> */}
     </div>
