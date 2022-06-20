@@ -1,5 +1,7 @@
 import React from 'react'
-import Example from './components/3-10.Context/Example';
+import Component from './components/3-14.PropTypes/Component';
+import StyledComponent from './components/StyledComponent/StyledComponent';
+//import Example from './components/3-11.Potal/Example';
 //import Button from './components/3-7.HOC/Button';
 //import Input from './components/3-7.HOC/Input';
 //import Memo from './components/3-8.Memoization/Memo';
@@ -24,7 +26,8 @@ function App() {
 
   return (
     <div className="App">
-       {/* <ClassComponent2/>
+      {/****************************** 챕터1 ***************************/}
+      {/* <ClassComponent2/>
       <FunctionalComponent/>
       <ClassComponent/>
       <Composition/>
@@ -45,7 +48,11 @@ function App() {
       <br/>
       <Button/> */}
       {/* <Memo/> */}
-      <Example/>
+      {/* <Example/> */}
+      {/* <Example/> */}
+      <Component/>
+      {/****************************** 챕터2 ***************************/}
+      {/* <StyledComponent/> */}
     </div>
   );
 }
