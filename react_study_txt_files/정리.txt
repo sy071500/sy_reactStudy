@@ -199,3 +199,9 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - 타임존 : plugin/timezone plugin/utc
 - Format / 비교 : 원하는 스타일로 표기 가능
 - 가벼움 : Tree shaking X
+
+* date-fns
+- 타임존 : date-fns-tz
+- Format / 비교 : 원하는 스타일로 표기 가능
+- 포괄적임  : Immutable / Tree shaking 까지
+- 함수별 import : 가능 ex. addWeeks
