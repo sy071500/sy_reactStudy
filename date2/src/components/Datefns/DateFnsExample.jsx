@@ -36,6 +36,7 @@ export default function DateFnsExample() {
         2018년 3월 10일 13시에 24시간 더하기:
         {timezoneFormat(add(new Date("2018-03-13 13:00:00"),{hours:24}),"yyyy-MM-dd HH:mm:ssXXX",{timeZone: "America/New_York"})}
       </div>
+      <br/>
       <div>Leap year(korea)</div>
       <div>
         2017년 1월 1일에 1년 빼기:
