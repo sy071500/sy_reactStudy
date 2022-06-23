@@ -28,11 +28,11 @@ Button.defaultProps = {
 }
 
 // Define what props.theme will look like
-const theme = {
-  color: "green",
-  borderColor:"pink"
+// const theme = {
+//   color: "green",
+//   borderColor:"pink"
 
-};
+// };
 
 const redTheme = {
   color: "red",

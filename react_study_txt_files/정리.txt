@@ -215,3 +215,9 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Global Style : 전역 스타일
 - attrs : props addition
 - keyframes / ThemeProvider : keyframes / ThemeProvider
+
+* emotion
+- react에 특화 : @emotion/react
+- css props : jsx를 대체함
+- styled components : styled-component + @
+- composition : css 안에서 css 사용
