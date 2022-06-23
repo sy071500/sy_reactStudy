@@ -211,3 +211,7 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - 해결책 : 스타일을 style 태그로 분리
 - 사용법(Template literals) : styled.{element}``
 - styled.{element}`` : 상속
+- & : 가상 엘리먼트 / 가상 선택자
+- Global Style : 전역 스타일
+- attrs : props addition
+- keyframes / ThemeProvider : keyframes / ThemeProvider
