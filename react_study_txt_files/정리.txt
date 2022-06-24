@@ -221,3 +221,15 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - css props : jsx를 대체함
 - styled components : styled-component + @
 - composition : css 안에서 css 사용
+- 기능 : Fallbacks, &, Global, keyframes
+- styled-components : 서로 점점 유사해짐
+- trend : emotion이 우세한 듯
+- 사이즈 / 속도 : emotion이 우세한 듯
+
+* sass
+- 전처리기 : CSS의 확장
+- Sass / Scss : 보다 CSS와 유사한 SCSS
+- 사용 : variables / modules / mixin / extend
+- syntax : 언어처럼 자체 syntax가 있음
+- Interpolation : #{ } 값을 주입(마치 `${ }`)
+- values / functions : 프로그래밍 언어스러움
