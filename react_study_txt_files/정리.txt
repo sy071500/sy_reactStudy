@@ -235,3 +235,10 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - values / functions : 프로그래밍 언어스러움
 
 * Onsen UI
+- UI 라이브러리 : 스타일링 된 컴포넌트 제공
+- 기본적인 기능 : 제공(ex. Action Sheet)
+- JS / Vue / React / Angular : 모두 서포트
+- 모바일 대응 : 안드로이드 / 아이폰 대응
+- 다양한 컴포넌트 : 모바일 케이스 대응
+- 아이콘 : Font Awesome / Ionicons
+- 문서 최신화 : 잘 안되는 듯(React에 불친절)
