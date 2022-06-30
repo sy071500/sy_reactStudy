@@ -1,13 +1,15 @@
 
-//import './App.css';
+import './App.css';
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
-import OnsenUIExample from './components/OnsenUI/OnsenUIExample';
+import AntDesignExample from './components/AntDesign/AntDesignExample';
+//import OnsenUIExample from './components/OnsenUI/OnsenUIExample';
 
 function App() {
   return (
+    <AntDesignExample/>
     //<div className='App'>
-      <OnsenUIExample />
+      // <OnsenUIExample />
     //</div>
   );
 }
