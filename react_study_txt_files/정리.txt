@@ -257,3 +257,14 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - JQuery 기반 Semantic UI : 리액트용으로 제공
 - Try It : 변경을 바로 확인 가능
 - as props : Semantic 한 tag 사용 가능
+- Comment / Feed : 다 만들어서 제공
+- 다양한 컴포넌트 : 웹 서비스 구성에 필요한 거의 모든
+- 여러 컴포넌트 조합 : visibility + progress
+
+* React Bootstrap
+- 반응형 웹 : xs / md /lg
+- Sass : @inport 해서 쓸 수 있음
+- 익숙한 UI : Bootstrap을 그대로 가져옴
+- 컬러 시스템 : 통일성 있음
+- Admin : Admin 페이지에서 자주 본 스타일
+- Utilities : Transitions / Ratio
