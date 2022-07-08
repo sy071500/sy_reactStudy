@@ -6,12 +6,14 @@
 //import AntDesignExample from './components/AntDesign/AntDesignExample';
 //import OnsenUIExample from './components/OnsenUI/OnsenUIExample';
 //import 'bootstrap/dist/css/bootstrap.min.css';
-//import ReactBootstrapExample from './components/ReactBootstrap/ReactBootstrapExample';
-import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
+//import ReactBootstrapExample from ' /components/ReactBootstrap/ReactBootstrapExample';
+//import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
+import TailWindExample from "./components/TailWind/Example";
 
 function App() {
   return (
-    <MaterialUIExample />
+    <TailWindExample/>
+    //<MaterialUIExample />
     // <ReactBootstrapExample/>
     //<ReactSemanticUIExample />
     //<AntDesignExample/>
