@@ -8,11 +8,13 @@
 //import 'bootstrap/dist/css/bootstrap.min.css';
 //import ReactBootstrapExample from ' /components/ReactBootstrap/ReactBootstrapExample';
 //import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
-import TailWindExample from "./components/TailWind/Example";
+//import TailWindExample from "./components/TailWind/Example";
+import Example from "./components/ReactSpring/Example";
 
 function App() {
   return (
-    <TailWindExample/>
+    <Example/>
+    //<TailWindExample/>
     //<MaterialUIExample />
     // <ReactBootstrapExample/>
     //<ReactSemanticUIExample />

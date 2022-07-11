@@ -284,3 +284,12 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - class : 스타일 요소를 모두 줌
 - Tiny : 빌드할때는 사용하는 class만
 - Intelli Sense  : VS code extension 제공
+- Utility First : 클래스 이름 생성 X / CSS 추가 X
+- 다크모드 : 대응 용이(media / class)
+- Customize : configuration 차원에서
+- 대부분의 css : 커버함 (but 예제는 아쉽…)
+
+* React spring
+- 좀 더 나은 애니메이션 : 물리엔진
+- hooks : use{*}
+- animated : Outside React
