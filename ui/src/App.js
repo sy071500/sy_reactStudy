@@ -9,11 +9,13 @@
 //import ReactBootstrapExample from ' /components/ReactBootstrap/ReactBootstrapExample';
 //import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
 //import TailWindExample from "./components/TailWind/Example";
-import Example from "./components/ReactSpring/Example";
+//import Example from "./components/ReactSpring/Example";
+import Example from "./components/FramerMotion/Example";
 
 function App() {
   return (
     <Example/>
+    //<Example/>
     //<TailWindExample/>
     //<MaterialUIExample />
     // <ReactBootstrapExample/>
