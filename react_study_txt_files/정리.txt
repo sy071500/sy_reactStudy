@@ -299,3 +299,8 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Motion : Animation 기능이 들어간 Component
 - Variants : Propagation / Orchestration
 - Propagation / Orchestration : 편의 기능들 제공
+
+* msw
+- Mocking : 모의 데이터 활용
+- Browser : Service worker 활용
+- REST API / GraphQL : 모두 모킹이 가능
