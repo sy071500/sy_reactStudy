@@ -304,3 +304,14 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Mocking : 모의 데이터 활용
 - Browser : Service worker 활용
 - REST API / GraphQL : 모두 모킹이 가능
+- mock : handler / brower 만 있어도 동작
+- public : npx msw init <PUBLIC_PATH>
+- 기타 커스텀 : query / patching / error
+
+* Redux
+- 전역 상태 관리 : vs 지역 상태 관리
+- 단 방향 데이터(상태) 흐름  : Flux
+- 구성 요소 : Store / Reducer / Action / Selector
+- RTK : Redux 라이브러리들 조합
+- 라이브러리들 : immer / saga / thunk / reselect
+- Redux Dev Tools : Chrome extension
