@@ -315,3 +315,11 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - RTK : Redux 라이브러리들 조합
 - 라이브러리들 : immer / saga / thunk / reselect
 - Redux Dev Tools : Chrome extension
+- Hooks : useSelector / useDispatch
+- API 통신 : 비동기 작업(RTK-Query)
+- Redux-Thunk : Action으로 API 요청/결과 Store에 반영
+
+* Mobx
+- Simple : No Boilerplate
+- Action  :  Derivative를 바꾸는 유일한 수단
+- Reactive Programming : Observable / Observer
