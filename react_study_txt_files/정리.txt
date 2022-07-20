@@ -323,3 +323,9 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Simple : No Boilerplate
 - Action  :  Derivative를 바꾸는 유일한 수단
 - Reactive Programming : Observable / Observer
+- with React : re-render issue (small component)
+- makeAutoObservable : makeObservable을 보다 쉽게
+- actions : runInAction / flow
+- Computed : getter pure
+- reaction : side effect
+- reactive : observable 인 것이 바뀔때

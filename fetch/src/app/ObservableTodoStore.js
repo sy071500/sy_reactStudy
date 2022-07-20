@@ -1,4 +1,13 @@
-import { makeObservable, observable, computed, action, autorun } from "mobx";
+import axios from "axios";
+import {
+  makeObservable,
+  observable,
+  computed,
+  action,
+  autorun,
+  makeAutoObservable,
+  flow,
+} from "mobx";
 
 class ObservableTodoStore {
   todos = [];
@@ -11,7 +20,9 @@ class ObservableTodoStore {
       completedTodosCount: computed,
       report: computed,
       addTodo: action,
+      fetchData: flow,
     });
+    //makeAutoObservable(this);
     autorun(() => console.log(this.report));
   }
 
@@ -34,6 +45,20 @@ class ObservableTodoStore {
       completed: false,
       assignee: null,
     });
+  }
+
+  fetchData = function* () {
+    const fetcthTodo = async () => {
+      const response = await axios.get("/todo");
+      return response.data.todo.task;
+    }
+
+    try {
+      const todo = yield fetcthTodo();
+      this.addTodo(todo);
+    } catch (error) {
+      console.log(`error: ${error}`);
+    }
   }
 }
 
