@@ -334,3 +334,12 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - Simple : React 의 한계 해소
 - 주요 개념 : atoms / selectors
 - React Tree : Tree를 벗어난 3D shared state
+
+* Zustand
+- No Provider : React와 완전 분리
+- create : useStore를 만들 수 있음 (자유도)
+- compare 로직 : 커스텀 가능
+- memoizing selector : 메모이제이션 with useCallback
+- Overwriting state : set의 두번째 변수
+- Selector : state를 토대로 계산하는 건 함수로
+- React와 관계 : 리액트 외부 혹은 바닐라에서도 동작
