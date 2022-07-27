@@ -1,6 +1,16 @@
 import { rest } from "msw";
 
 export const handlers = [
+
+  rest.get('http://localhost:3000/api/user-name',async (req, res, ctx)=>{
+    const id = req.url.searchParams.get('id')
+    return res(
+      ctx.json({
+        name: id === '1' ? 'the one' : 'the others'
+      })
+    )
+  }),
+
   rest.get("http://localhost:3000/todo", async (req, res, ctx) => {
     return res(
       ctx.json({
@@ -31,10 +41,10 @@ export const handlers = [
   rest.get(
     "https://raw.githubusercontent.com/techoi/raw-data-api/main/simple-api.json",
     async (req, res, ctx) => {
-      const id = req.url.searchParams.get("id");
+      //const id = req.url.searchParams.get("id");
 
-      const originalResponse = await ctx.fetch(req);
-      const originalResponseData = await originalResponse.json();
+      //const originalResponse = await ctx.fetch(req);
+      //const originalResponseData = await originalResponse.json();
 
       return res(
         ctx.status(403),
