@@ -1,14 +1,23 @@
 import { rest } from "msw";
 
 export const handlers = [
-
-  rest.get('http://localhost:3000/api/user-name',async (req, res, ctx)=>{
-    const id = req.url.searchParams.get('id')
+  rest.get("http://localhost:3000/api/user/:userId", async (req, res, ctx) => {
+    const { userId } = req.params;
     return res(
       ctx.json({
-        name: id === '1' ? 'the one' : 'the others'
+        name: `JIMMY (${userId})`,
       })
-    )
+    );
+    //return res(ctx.status(400));
+  }),
+
+  rest.get("http://localhost:3000/api/user-name", async (req, res, ctx) => {
+    const id = req.url.searchParams.get("id");
+    return res(
+      ctx.json({
+        name: id === "1" ? "the one" : "the others",
+      })
+    );
   }),
 
   rest.get("http://localhost:3000/todo", async (req, res, ctx) => {
@@ -16,7 +25,7 @@ export const handlers = [
       ctx.json({
         todo: {
           task: "Todo from Server",
-        }
+        },
       })
     );
   }),

@@ -12,7 +12,7 @@ export default function Scratches() {
   useEffect(() => {
     useStore.subscribe(
       (scratches) => {
-        console.dir(`scratches: ${scratches.scratches}`)
+        console.dir(`scratches: ${scratches.scratches}`)       
         if(scratches.scratches > 3){
             alert("too many...");
         }

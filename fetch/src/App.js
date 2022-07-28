@@ -1,7 +1,9 @@
 import "./App.css";
-import CharacterCounter from "./components/ZustandExample/CharacterCounter";
-import CurrentUserInfo from "./components/ZustandExample/CurrentUserInfo";
-import Scratches from "./components/ZustandExample/Scratches";
+import Cache from "./components/SWRExample/Cache";
+import Profile from "./components/SWRExample/Profile";
+//import CharacterCounter from "./components/ZustandExample/CharacterCounter";
+//import CurrentUserInfo from "./components/ZustandExample/CurrentUserInfo";
+//import Scratches from "./components/ZustandExample/Scratches";
 //import Counter2 from "./components/Counter2";
 //import MobxExample from "./components/MobxExample";
 //import TestMocking from "./components/TestMocking";
@@ -10,8 +12,8 @@ import Scratches from "./components/ZustandExample/Scratches";
 //import { observableTodoStore } from "./app/ObservableTodoStore";
 //import { RecoilRoot } from "recoil";
 //import FontButton from "./components/RecoilExample/FontButton";
-import Text from "./components/ZustandExample/Text";
-import { TodoList } from "./components/ZustandExample/Todo/TodoList";
+//import Text from "./components/ZustandExample/Text";
+//import { TodoList } from "./components/ZustandExample/Todo/TodoList";
 //import CharacterCounter from "./components/RecoilExample/CharacterCounter";
 
 function App() {
@@ -29,11 +31,13 @@ function App() {
         <Text />
         <CharacterCounter />
       </RecoilRoot> */}
-      <Text />
+      {/* <Text />
       <CharacterCounter/>
       <TodoList/>
       <CurrentUserInfo/>
-      <Scratches/>
+      <Scratches/> */}
+      <Profile/>
+      <Cache/>
     </div>
   );
 }

@@ -347,3 +347,9 @@ props 또는 state가 변경되면 갱신이 발생합니다. 아래 메서드�
 - 비동기 호출 : set 이전에 비동기가 일어나도 무관
 - 기타 팁 : Redux-like / Reacting to changes
 - 미들웨어 : Persist middleware
+
+* SWR
+- SWR : Stale - While - Revalidate
+- 키 : 중복 제거 / 캐시 / 공유
+- Revalidate : 다양한 옵션(포커스 / 네트워크 / interval)
+- 전역 설정 : SWRConfig / persistant cache
